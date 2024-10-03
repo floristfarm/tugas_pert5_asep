@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Profil</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .container {
+        width: 100%;
+        max-width: 600px;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        text-align: center;
+      }
+      .profile-image {
+        margin-bottom: 20px;
+      }
+
+      .profile-image img {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+      }
+      h1 {
+        color: #333;
+      }
+      p {
+        font-size: 18px;
+        line-height: 1.6;
+        color: #666;
+      }
+      .profile-details {
+        margin-top: 20px;
+        text-align: left;
+        margin-bottom: 20px;
+      }
+      .profile-details ul {
+        list-style: none;
+        padding: 0;
+      }
+      .profile-details ul li {
+        padding: 10px 0;
+        border-bottom: 1px solid #eee;
+      }
+      .profile-details ul li span {
+        font-weight: bold;
+        color: #333;
+      }
+      .back-button {
+        display: block;
+        margin: 30px auto 0;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 16px;
+        width: fit-content;
+      }
+      .back-button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile-image">
+        <img
+          src="hero.jpeg"
+          alt="Profile Picture"
+        />
+      </div>
+      <h1>Asep Saepudin</h1>
+      <p>Halo, saya adalah seorang Mahasiswa semester lima</p>
+
+      <div class="profile-details">
+        <h2>Detail Profil</h2>
+        <ul>
+          <li><span>Nama:</span> Asep Saepudin</li>
+          <li><span>Usia:</span> 24</li>
+          <li><span>Email:</span> asepunpam221011@gmail.com</li>
+          <li><span>Alamat:</span> Tangerang Selatan</li>
+        </ul>
+      </div>
+      <a
+        href="home.html"
+        class="back-button"
+        >Kembali ke Halaman Home</a
+      >
+    </div>
+  </body>
+</html>
